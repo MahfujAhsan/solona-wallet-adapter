@@ -1,0 +1,111 @@
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 20px 0 20px;
+}
+.site-logo {
+  width: 120px;
+  margin: auto;
+}
+
+.walltet-button {
+  display: flex;
+  justify-content: center;
+  background-color: #4B1D54;
+  border: 5px solid #BA47D2;
+  border-radius: 100px;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+.btn {
+  text-transform: uppercase;
+}
+.nav-button {
+  display: flex;
+  padding: 8px 20px;
+  width: 100%;
+  margin: auto;
+  margin: 8px 0;
+  font-weight: 500;
+  color: #303f77;
+}
+.nav-button:hover {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.icon {
+  display: inline;
+  margin-right: 8px;
+}
+.footer {
+  width: 100%;
+}
+.footer-text {
+  text-align: center;
+  color: #303f77;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0 25px 0;
+}
+
+.social-icon {
+  background-color: #F7EAF9;
+  padding: 15px;
+  border-radius: 50%;
+  color: #303f77;
+}
+.copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #F7EAF9;
+}
+.page {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0EBF4;
+}
+.page-text {
+  font-weight: 400;
+  color: #151e3d;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.input-wallet input {
+  margin-top: 25px 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-wallet button {
+  justify-content: center;
+  background-color: #4B1D54;
+  border: 2px solid #BA47D2;
+  border-radius: 8px;
+  padding: 8px 25px;
+  color: #fff;
+  margin-left: 25px;
+  font-weight: 500;
+}
